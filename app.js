@@ -23,7 +23,9 @@ const items = [
     {name: `transmuter -`, png: `ITO_EN_Transmuter -`,param: `tm`},
     {name: ``, png: ``,param: ``},
 ]
-let para = ``
+
+body.innerHTML += `<h1 id="AgentName">${searchParam.get("name")||''}</h1>`
+
 let c = 0
 let pending = `<div>`
 for (let item of items) {
@@ -48,4 +50,22 @@ for (let item of items) {
     </div>
     `
 }
-console.log(para)
+TweenMax.staggerFrom('img',.5,{
+    x: -50,
+    y: 0,
+    autoAlpha:0,
+    ease: Back.easeOut,
+},0.1)
+TweenMax.staggerFrom('h5',.5,{
+    y: 100,
+    autoAlpha:0.5,
+    ease: Linear.easeIn,
+},0.1)
+TweenMax.staggerFromTo('h2',.5,{
+    fontSize: 0,
+},{
+    fontSize: 60,
+    delay: 0.1,
+    ease: Back.easeOut,
+},0.1)
+
