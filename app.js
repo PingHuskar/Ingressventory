@@ -4,7 +4,7 @@ const items = [
     {name: `apex`, png: `apex`,param: `ap`},
     {name: `ada`, png: `ada-refactor-100x100`,param: `ad`},
     {name: `jarvis virus-100x100`, png: `jarvis-virus-100x100`,param: `jv`},
-    {name: `quantum capsule`, png: `quantum-capsule`,param: `qc`},
+    {name: `Portal Key`, png: `Portal_Key`,param: `key`},
     {name: `Capsule`, png: `capsule`,param: `c`},
     {name: `Kinetic_Capsule`, png: `Prime-Kinetic_Capsule`,param: `kc`},
     {name: `heat sink`, png: `heat-sink-244x300`,param: `hs`},
