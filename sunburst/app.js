@@ -25,5 +25,6 @@ const sunburst = new Sunburst({
         "l6": "#eb26",
         "l7": "#c124e0",
         "l8": "#9627f4",
+        "space": "#111",
     }
 }).setData(data)
